@@ -118,3 +118,15 @@ Annotaion adalah menambahkan metadata ke kode program yang kita buat.
 
 ## Reflection
 Refletion adalah kemampuan melihat struktur aplikasi kita pada saat berjalan.
+
+## Asociation
+Association adalah hubungan umum antara 2 kelas yang bersifat yang bersifat **independen**.
+Artinya, kedua kelas tersebut dapat saling berinteraksi, tetapi tidak memiliki ketergantungan yang kuat.
+
+## Aggregation
+Aggregation adalah hubungan yang lebih kuat dibandingkan association, dimana satu objek memiliki objek lain,
+tetapi objek tesebut **bisa eksis secara independen** tanpa pemiliknya.
+
+## Composition 
+Composition adalah hubungan yang lebih kuat dan erat dibandingkan agregasi. Pada komposisi, objek yang dimiliki bergantug sepenuhnya pada pemiliknya.
+Jika pemilik dihancurkan, maka objek yang dimiliki juga **akan dihancurkan**.
